@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment variables or config
+.env
+
+# PDFs or documents (optional, only if you don't want to commit them)
+*.pdf
+
+# FAISS index files (if saved locally)
+*.faiss*
+*.npy
+
+# Jupyter Notebooks (optional)
+*.ipynb
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
