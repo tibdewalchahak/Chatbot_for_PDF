@@ -9,6 +9,13 @@ __pycache__/
 # PDFs or documents (optional, only if you don't want to commit them)
 *.pdf
 
+# FAISS vector database files
+model_store/
+
+# Temporary files
+*.tmp
+*.temp
+
 # FAISS index files (if saved locally)
 *.faiss*
 *.npy
