@@ -7,3 +7,4 @@ groq
 langchain-community
 langchain-huggingface
 streamlit
+PyMuPDF
