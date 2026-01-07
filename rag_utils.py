@@ -1,13 +1,13 @@
 import os
 from dotenv import load_dotenv
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.schema import Document
 import groq
 
-load_dotenv(dotenv_path=r"C:\Users\tibde\Desktop\Projects\h_rag\.env")
+load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-print("KEY:", GROQ_API_KEY)
+# print("KEY:", GROQ_API_KEY)
 
 # Groq client (used to call the llm to generate the answers)
 client = groq.Groq(api_key=GROQ_API_KEY) #initialize commuincation with the groq llm llama3.1
