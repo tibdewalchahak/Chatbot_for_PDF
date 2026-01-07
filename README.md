@@ -31,9 +31,9 @@ This is a lightweight Retrieval-Augmented Generation (RAG) agent that takes a PD
    ```bash
    GROQ_API_KEY=your_groq_api_key_here
    ```
-4. **Run the RAG agent**
+4. **Run the streamlit app**
    ```bash
-   python main.py
+   streamlit run app.py
    ```
    You'll be prompted to enter a PDF file path and then a query.
 
